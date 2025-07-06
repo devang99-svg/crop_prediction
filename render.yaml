@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: crop-prediction-app
+    env: python
+    buildCommand: cd crop_prediction && pip install -r requirements.txt
+    startCommand: cd crop_prediction && gunicorn app:flask_app
+    runtime: python
