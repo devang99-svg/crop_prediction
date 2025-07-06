@@ -1,9 +1,8 @@
-setuptools>=42
-wheel
-pip>=23.0
-
-Flask==2.3.0
-gunicorn==20.1.0
-numpy==1.23.5
+Flask>=2.3
+gunicorn>=20.1
+setuptools>=68.0.0
+wheel>=0.40.0
 joblib
+pandas
+numpy
 scikit-learn
